@@ -1,1 +1,1 @@
-ClinVar TKTKTK
+ClinVar TKTK
