@@ -1,0 +1,26 @@
+<!doctype html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/static/bootstrap.min.css">
+	<style type="text/css">
+		#snippet {
+			border: 1px solid #eee;
+			padding: 40px;
+			margin: 40px 0;
+			font-size: 20px;
+			font-weight: 300;
+		}
+		.page-header {
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<p class='page-header'><a href="/">Snippets</a> &raquo; <code>{{ slug }}</code></p>
+		<div class="col-md-10 col-md-offset-1">
+			<div id="snippet">
+				{{ snippet_html|safe }}
+			</div>
+		</div>
+	</div>
+</body>

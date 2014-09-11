@@ -1,0 +1,14 @@
+<!doctype html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/static/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class='page-header'>List of Snippets</h1>
+		<ul>
+		{% for slug in snippetslugs %}
+			<li><a href="/snippet/{{ slug }}">{{ slug }}</a></li>
+		{% endfor %}
+		</ul>
+	</div>
+</body>
