@@ -31,11 +31,13 @@ The markdown compiles to HTML which can be embedded into any web app.
 Each snippet is in its own file, within the `content/` directory. 
 Snippets are organized in directories, which is used for namespacing. 
 
-For example, the **identifier** for the Exome Capture snippet is `ngs.exome_capture`. 
-This means the content for this snippet is in `snippets/ngs/exome_capture.md`. 
+For example, consider the Exome Capture snippet above: 
 
-In the QC portal, we include that content (as compiled HTML, not Markdown) with the tag `{% humanization 'ngs.exome_capture' %}` 
-(Though note that the specific method for including content will vary across portals.) 
+- The content for this snippet is in `snippets/ngs/exome_capture.md`. 
+
+- The **identifier** for this snippet is `ngs.exome_capture`
+
+- In the QC portal, we include that content (as compiled HTML, not Markdown) with the tag `{% humanization 'ngs.exome_capture' %}`. (Though note that the specific method for including content will vary across portals.) 
 
 #### Editing content
 
