@@ -37,6 +37,11 @@ This means the content for this snippet is in `snippets/ngs/exome_capture.md`.
 In the QC portal, we include that content (as compiled HTML, not Markdown) with the tag `{% humanization 'ngs.exome_capture' %}` 
 (Though note that the specific method for including content will vary across portals.) 
 
+#### Editing content
+
+You can edit content locally, where there is a webpage that will display content locally. 
+But since this is just Markdown, it will usually be easiest just to edit this directly in GitHub. 
+
 #### Some notes on the actual content 
 
 - Links, bold, italic, etc. are allowed and encouraged - makes it much easier to read 
